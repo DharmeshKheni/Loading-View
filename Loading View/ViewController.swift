@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var loadingView: UIView!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var loadingLbl: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         loadingView.hidden = true
@@ -21,25 +23,34 @@ class ViewController: UIViewController {
     @IBAction func Start(sender: AnyObject) {
         
         loadingView.hidden = false
-        
-        let fullRotation = CGFloat(M_PI * 2)
-        
-        let animation = CAKeyframeAnimation()
-        animation.keyPath = "transform.rotation.z"
-        animation.duration = 2
-        animation.removedOnCompletion = false
-        animation.fillMode = kCAFillModeForwards
-        animation.repeatCount = Float.infinity
-        animation.values = [fullRotation/4, fullRotation/2, fullRotation*3/4 , fullRotation]
-        
-        imageView.layer.addAnimation(animation, forKey: "rotate")
+        rotateViewLayer()
     }
     
     @IBAction func Stop(sender: AnyObject) {
         
+        
         loadingView.hidden = true
         imageView.layer.removeAllAnimations()
     }
+    
+    func rotateViewLayer() {
+        let rotateView = CABasicAnimation()
+        
+        rotateView.fromValue = 0.degreesToRadian
+        rotateView.toValue = 360.degreesToRadian
+        rotateView.duration = 1
+        rotateView.repeatCount = Float.infinity
+        rotateView.removedOnCompletion = false
+        rotateView.fillMode = kCAFillModeForwards
+        rotateView.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        imageView.layer.addAnimation(rotateView, forKey: "transform.rotation.z")
+    }
 
+}
+
+extension Int {
+    var degreesToRadian : CGFloat {
+        return CGFloat(self) * CGFloat(M_PI) / 180.0
+    }
 }
 
