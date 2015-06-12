@@ -14,6 +14,8 @@
 		04C64F971B2AA2F800495DF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C64F951B2AA2F800495DF7 /* LaunchScreen.xib */; };
 		04C64FA31B2AA2F900495DF7 /* Loading_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C64FA21B2AA2F900495DF7 /* Loading_ViewTests.swift */; };
 		04C64FAD1B2AA3DE00495DF7 /* homeTargetAcq_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C64FAC1B2AA3DE00495DF7 /* homeTargetAcq_circle.png */; };
+		04C64FAF1B2AB56900495DF7 /* ToM_EnsoCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C64FAE1B2AB56900495DF7 /* ToM_EnsoCircle.png */; };
+		04C64FB11B2AB5AA00495DF7 /* circle-dashed-8-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C64FB01B2AB5AA00495DF7 /* circle-dashed-8-xxl.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		04C64FA11B2AA2F900495DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C64FA21B2AA2F900495DF7 /* Loading_ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading_ViewTests.swift; sourceTree = "<group>"; };
 		04C64FAC1B2AA3DE00495DF7 /* homeTargetAcq_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeTargetAcq_circle.png; sourceTree = "<group>"; };
+		04C64FAE1B2AB56900495DF7 /* ToM_EnsoCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToM_EnsoCircle.png; sourceTree = "<group>"; };
+		04C64FB01B2AB5AA00495DF7 /* circle-dashed-8-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-dashed-8-xxl.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +88,9 @@
 				04C64F901B2AA2F800495DF7 /* Main.storyboard */,
 				04C64F931B2AA2F800495DF7 /* Images.xcassets */,
 				04C64F951B2AA2F800495DF7 /* LaunchScreen.xib */,
+				04C64FB01B2AB5AA00495DF7 /* circle-dashed-8-xxl.png */,
 				04C64FAC1B2AA3DE00495DF7 /* homeTargetAcq_circle.png */,
+				04C64FAE1B2AB56900495DF7 /* ToM_EnsoCircle.png */,
 				04C64F8A1B2AA2F800495DF7 /* Supporting Files */,
 			);
 			path = "Loading View";
@@ -197,7 +203,9 @@
 			files = (
 				04C64F921B2AA2F800495DF7 /* Main.storyboard in Resources */,
 				04C64FAD1B2AA3DE00495DF7 /* homeTargetAcq_circle.png in Resources */,
+				04C64FB11B2AB5AA00495DF7 /* circle-dashed-8-xxl.png in Resources */,
 				04C64F971B2AA2F800495DF7 /* LaunchScreen.xib in Resources */,
+				04C64FAF1B2AB56900495DF7 /* ToM_EnsoCircle.png in Resources */,
 				04C64F941B2AA2F800495DF7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +423,7 @@
 				04C64FA81B2AA2F900495DF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04C64FA91B2AA2F900495DF7 /* Build configuration list for PBXNativeTarget "Loading ViewTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +432,7 @@
 				04C64FAB1B2AA2F900495DF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

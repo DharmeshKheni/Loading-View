@@ -37,7 +37,7 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MDz-ct-rtl">
                                 <rect key="frame" x="85" y="250" width="151" height="68"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="homeTargetAcq_circle.png" translatesAutoresizingMaskIntoConstraints="NO" id="QWR-6p-RXb">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-dashed-8-xxl.png" translatesAutoresizingMaskIntoConstraints="NO" id="QWR-6p-RXb">
                                         <rect key="frame" x="8" y="9" width="50" height="50"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Loading..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSM-n5-xWP">
@@ -64,6 +64,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="homeTargetAcq_circle.png" width="50" height="50"/>
+        <image name="circle-dashed-8-xxl.png" width="50" height="50"/>
     </resources>
 </document>
